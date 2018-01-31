@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430511272021B9050050B8F1 /* UIColor+DMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 430511262021B9050050B8F1 /* UIColor+DMUI.m */; };
+		4305112A2021B9610050B8F1 /* UIView+DMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 430511292021B9610050B8F1 /* UIView+DMUI.m */; };
 		4392EC1E1FF1EE2F00F2A5F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4392EC1D1FF1EE2F00F2A5F4 /* AppDelegate.m */; };
 		4392EC211FF1EE2F00F2A5F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4392EC201FF1EE2F00F2A5F4 /* ViewController.m */; };
 		4392EC241FF1EE2F00F2A5F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4392EC221FF1EE2F00F2A5F4 /* Main.storyboard */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		430511252021B9050050B8F1 /* UIColor+DMUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+DMUI.h"; sourceTree = "<group>"; };
+		430511262021B9050050B8F1 /* UIColor+DMUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DMUI.m"; sourceTree = "<group>"; };
+		430511282021B9610050B8F1 /* UIView+DMUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DMUI.h"; sourceTree = "<group>"; };
+		430511292021B9610050B8F1 /* UIView+DMUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DMUI.m"; sourceTree = "<group>"; };
 		4392EC191FF1EE2F00F2A5F4 /* DMUIButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMUIButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4392EC1C1FF1EE2F00F2A5F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4392EC1D1FF1EE2F00F2A5F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +114,10 @@
 				4392EC1D1FF1EE2F00F2A5F4 /* AppDelegate.m */,
 				4392EC1F1FF1EE2F00F2A5F4 /* ViewController.h */,
 				4392EC201FF1EE2F00F2A5F4 /* ViewController.m */,
+				430511252021B9050050B8F1 /* UIColor+DMUI.h */,
+				430511262021B9050050B8F1 /* UIColor+DMUI.m */,
+				430511282021B9610050B8F1 /* UIView+DMUI.h */,
+				430511292021B9610050B8F1 /* UIView+DMUI.m */,
 				4392EC4E1FF1EE5300F2A5F4 /* DMUIButton.h */,
 				4392EC4F1FF1EE5300F2A5F4 /* DMUIButton.m */,
 				4392EC221FF1EE2F00F2A5F4 /* Main.storyboard */,
@@ -273,7 +283,9 @@
 				4392EC211FF1EE2F00F2A5F4 /* ViewController.m in Sources */,
 				4392EC2C1FF1EE2F00F2A5F4 /* main.m in Sources */,
 				4392EC501FF1EE5300F2A5F4 /* DMUIButton.m in Sources */,
+				4305112A2021B9610050B8F1 /* UIView+DMUI.m in Sources */,
 				4392EC1E1FF1EE2F00F2A5F4 /* AppDelegate.m in Sources */,
+				430511272021B9050050B8F1 /* UIColor+DMUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
